@@ -1,0 +1,4 @@
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.AssemblyInfoInputs.cache
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.AssemblyInfo.cs
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.csproj.CoreCompileInputs.cache
