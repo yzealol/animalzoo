@@ -41,9 +41,9 @@ class Ant :Bug{
     {Console.WriteLine($"tjena mittbena. jag heter {name} och är {age} år gammal");
         
     }
-    public Ant(string myrnamn,int myrålder){
-  name = myrnamn;
-  age = myrålder;
+    public Ant(string antname,int antage){
+  name = antname;
+  age = antage;
   haswings = false;
   
 }
@@ -60,9 +60,9 @@ class Cat :Mamal{
     {Console.WriteLine($"tjena mittbena. jag heter {name} och är {age} år gammal");
         
     }
-public Cat(string kattnamn,int kattålder){
-  name = kattnamn;
-  age = kattålder;
+public Cat(string catname,int catage){
+  name = catname;
+  age = catage;
   isNocturnal = true;
 }
 }
@@ -79,9 +79,9 @@ class Penguin :Bird{
     {Console.WriteLine($"tjena mittbena. jag heter {name} och är {age} år gammal");
         
     }
-    public Penguin(string pingvinnamn,int pingvinålder){
-  name = pingvinnamn;
-  age = pingvinålder;
+    public Penguin(string penguinname,int penguinage){
+  name = penguinname;
+  age = penguinage;
 canFly = false;
 
 }
@@ -97,9 +97,9 @@ public void Speak(string parrotspeak){
 Console.WriteLine(parrotspeak);
 
 }
-public Parrot(string papegojanamn,int papegojaålder){
-  name = papegojanamn;
-  age = papegojaålder;
+public Parrot(string parrotname,int parrotage){
+  name = parrotname;
+  age = parrotage;
   canFly = true;
  
 }
@@ -108,77 +108,64 @@ public Parrot(string papegojanamn,int papegojaålder){
 class Program{
 
    static void main(){
-Zoo tjenazoo = new Zoo();
-    bool klar = false;
-    while (!klar){
+Zoo wassupzoo = new Zoo();
+    bool done = false;
+    while (!done){
     Console.Clear();
     Console.WriteLine("tryck q för att exit \n tryck a för att add \n Tryck r för att remove \n tryck f för att first");
-    string väljdjur;
+    string chooseanimal;
   switch(Console.ReadKey().KeyChar){
     case 'q':
     Console.WriteLine("tjena tjena kom gärna tillbaka king kong");
-    klar = true;
+    done = true;
     break;
     case 'a':
     Console.WriteLine("tjena vilket animal vill du adda idag?(cat, parrot, penguin, ant)");
-väljdjur = Console.ReadLine();
-switch(väljdjur){
+chooseanimal = Console.ReadLine();
+switch(chooseanimal){
   case "cat":
-  string djurnamn = Console.ReadLine();
-  int djurålder = Convert.ToInt32(Console.ReadLine());
-  Cat nykatt = new Cat(djurnamn,djurålder);
-   tjenazoo.addAnimal(nykatt);
+  string animalname = Console.ReadLine();
+  int animalage = Convert.ToInt32(Console.ReadLine());
+  Cat newcat = new Cat(animalname,animalage);
+   wassupzoo.addAnimal(newcat);
    break;
   case "parrot":
-   djurnamn = Console.ReadLine();
-   djurålder = Convert.ToInt32(Console.ReadLine());
-  Parrot nyparrot = new Parrot(djurnamn,djurålder);
-   tjenazoo.addAnimal(nyparrot);
+   animalname = Console.ReadLine();
+   animalage = Convert.ToInt32(Console.ReadLine());
+  Parrot newparrot = new Parrot(animalname,animalage);
+   wassupzoo.addAnimal(newparrot);
    break;
    case "ant":
-   djurnamn = Console.ReadLine();
-   djurålder = Convert.ToInt32(Console.ReadLine());
-  Ant nyant = new Ant(djurnamn,djurålder);
-   tjenazoo.addAnimal(nyant);
+   animalname = Console.ReadLine();
+   animalage = Convert.ToInt32(Console.ReadLine());
+  Ant newant = new Ant(animalname,animalage);
+   wassupzoo.addAnimal(newant);
    break;
    case "penguin":
-   djurnamn = Console.ReadLine();
-   djurålder = Convert.ToInt32(Console.ReadLine());
-  Penguin nypenguin = new Penguin(djurnamn,djurålder);
-   tjenazoo.addAnimal(nypenguin);
+   animalname = Console.ReadLine();
+   animalage = Convert.ToInt32(Console.ReadLine());
+  Penguin newpenguin = new Penguin(animalname,animalage);
+   wassupzoo.addAnimal(newpenguin);
    break;
 }
    
     break;
     case 'r':
     Console.WriteLine("skriv in de index du vill ta bort");
-     int tabortindex = Convert.ToInt32(Console.ReadLine());
-     if(0<=tabortindex && tabortindex < tjenazoo.animals.Count()){
- tjenazoo.removeAnimal(tabortindex);
+     int removeindex = Convert.ToInt32(Console.ReadLine());
+     if(0<=removeindex && removeindex < wassupzoo.animals.Count()){
+ wassupzoo.removeAnimal(removeindex);
      }
-     else{Console.WriteLine($"index {tabortindex} fanns inte g");
+     else{Console.WriteLine($"index {removeindex} fanns inte g");
      }
     
     break;
     case 'f':
-    tjenazoo.firstAnimal();
+    wassupzoo.firstAnimal();
     break;
   }
  
   }
 }
-void Exit(){
-
-}
-void Add(){
-
-}
-void Remove(){
-
-}
-void First(){
-
-}
-
 }
 
