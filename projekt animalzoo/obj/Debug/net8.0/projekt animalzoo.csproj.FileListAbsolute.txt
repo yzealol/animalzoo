@@ -2,3 +2,14 @@ C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\
 C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.AssemblyInfoInputs.cache
 C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.AssemblyInfo.cs
 C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.csproj.CoreCompileInputs.cache
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\bin\Debug\net8.0\projekt animalzoo.exe
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\bin\Debug\net8.0\projekt animalzoo.deps.json
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\bin\Debug\net8.0\projekt animalzoo.runtimeconfig.json
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\bin\Debug\net8.0\projekt animalzoo.dll
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\bin\Debug\net8.0\projekt animalzoo.pdb
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.sourcelink.json
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.dll
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\refint\projekt animalzoo.dll
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.pdb
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\projekt animalzoo.genruntimeconfig.cache
+C:\Users\hg8352\OneDrive - LYSTKOM\Programering\animalzoo\projekt animalzoo\obj\Debug\net8.0\ref\projekt animalzoo.dll
